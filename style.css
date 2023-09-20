@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Merriweather:wght@300&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-color: black;
+color: aliceblue;
+height: 8vh;
+font-family: 'Borel', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+/* display: flex; */
+/* position: fixed; */
+margin: 0;
+padding: 0;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: auto;
+    font-family: 'Borel', cursive;
+font-family: 'Dancing Script', cursive;
+/* padding: 15px; */
+/* margin: 15px; */
+display: flex;
+/* margin: 12px 12px; */
+
+}
+.p{
+    margin: 25px;
+}
+.pre{
+    font-family: 'Borel', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin: 12px 12px;
+    /* text-align: end; */
+    text-align: center;
+
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+nav ul li a:hover{
+    color: rgb(78, 114, 223);
+    text-decoration: none;
+    /* margin: 15px; */
+    font-weight: bold;
+    
+}
+nav ul{
+display: flex;
+list-style: none;
+/* margin: 15px; */
+padding: 12px;
+}
+nav{
+    display: flex;
+}
+
+#oggo{
+    width: 122px;
+    display: flex;
+    border-radius: 12px;
+    margin: 5px;
+}
+.container{
+   /* min-height: ; */
+   min-height: 82vh;
+   background-color: white;
+}
+.search{
+display: flex;
+height: 4vh;
+display: inline;
+width: 30vw;
+align-items: center;
+margin: 10px;
+border-radius: 8px;
+border: palevioletred solid;
+}
+
+.btn {
+    border: solid 2px hsl(340, 57%, 64%);
+    border-radius: 5px;
+    height: 25px;
+    color: aliceblue;
+    background-color: rgb(22, 25, 29);
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 1px;
+    /* position: absolute; */
+    /* top: auto; */
+}
+.btn a{
+    color: yellow;
+    /* font-style: normal; */
+    text-decoration: solid;
+}
+.login{
+    border: solid 2px hsl(340, 57%, 64%);
+    border-radius: 5px;
+    /* color: rgb(0, 0, 0); */
+    background-color: rgb(254, 233, 0);
+    padding: 5px;
+    margin: 10px 0px 0px 150px;
+    text-decoration: none;
+     
+}
+.login a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.login a:hover{
+    text-decoration: none;
+    color: rgb(12, 134, 241);
+    font-weight: bold;
+}
+.login1{
+    /* margin:28px; */
+/* display: flex; */
+/* position: relative; */
+margin: 0px 0px 45px 0px;
+}
+.slider {
+width: 80vw;
+height: 50vh;
+margin:10px auto;
+}
+.slider img{
+    height: 50vh;
+    width: 80vw;
+}
+.im1{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 5px;
+}
+.card{
+    margin: auto;
+    background-color: rgb(216, 230, 237);
+    width: 95vw;
+    font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+display: flex;
+}
+.red{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subcard{
+    background-color: rgb(210, 216, 234);
+    margin:20px auto;
+    /* border-radius: 5px; */
+}
+.heading{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 44px;
+    padding: 0px;
+}
